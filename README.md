@@ -3,10 +3,14 @@
 ## Instructions:
 
 - Install required packages:
-  ```
+  ```sh
   pip install flask flask_sqlalchemy
   ```
-- Run this script. It will create a SQLite database (`users.db`) in the same directory.
+- For development, run:
+  ```sh
+  python app.py
+  ```
+  It will create a SQLite database (`users.db`) in the same directory.
 - The `/profile` endpoint supports:
   - `GET` to fetch the first user,
   - `POST` to add a new user,
