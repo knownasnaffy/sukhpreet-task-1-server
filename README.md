@@ -16,8 +16,6 @@
 
 Supports three HTTP methods: **GET**, **POST**, and **PUT**.
 
-***
-
 ### GET /profile
 
 - **Description**: Fetch user information.
@@ -44,8 +42,6 @@ Supports three HTTP methods: **GET**, **POST**, and **PUT**.
       "data": null
     }
     ```
-
-***
 
 ### POST /profile
 
@@ -75,8 +71,6 @@ Supports three HTTP methods: **GET**, **POST**, and **PUT**.
       }
     }
     ```
-
-***
 
 ### PUT /profile
 
@@ -115,9 +109,7 @@ Supports three HTTP methods: **GET**, **POST**, and **PUT**.
     }
     ```
 
-***
-
-### Notes
+## Notes
 
 - The server stores only one user record for simplicity: the first user returned in the database.
 - The `gender` field expects a single character string, e.g., `"M"` or `"F"`.
